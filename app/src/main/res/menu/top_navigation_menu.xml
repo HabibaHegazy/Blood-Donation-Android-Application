@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/backBtn"
+        android:icon="@drawable/ic_arrow_back"
+        android:title="back btn"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/signOutBtn"
+        android:title="sign out"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/privacySettingsBtn"
+        android:title="privacy settings"
+        app:showAsAction="never" >
+
+        <menu>
+            <item
+                android:id="@+id/emailSettingsBtn"
+                android:title="email settings"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/passwordSettingsBtn"
+                android:title="password settings"
+                app:showAsAction="never" />
+        </menu>
+
+    </item>
+
+</menu>

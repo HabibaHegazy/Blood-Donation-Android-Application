@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Admin_panel.AdminMainViewFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="590dp">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:weightSum="1">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <Button
+                        android:id="@+id/addAdminButton"
+                        android:layout_width="500dp"
+                        android:layout_height="500dp"
+                        android:background="@drawable/white_round_button"
+                        android:drawableTop="@drawable/donation_icon"
+                        android:gravity="center"
+                        android:paddingTop="20dp"
+                        android:layout_margin="15dp"
+                        android:paddingBottom="10dp"
+                        android:text="Add Admin"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <Button
+                        android:id="@+id/viewAdminsButton"
+                        android:layout_width="500dp"
+                        android:layout_height="500dp"
+                        android:background="@drawable/white_round_button"
+                        android:drawableTop="@drawable/donation_icon"
+                        android:gravity="center"
+                        android:paddingTop="20dp"
+                        android:layout_margin="15dp"
+                        android:paddingBottom="10dp"
+                        android:text="View Admins"
+                        android:textColor="@color/black" />
+
+
+
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:weightSum="1">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <Button
+                        android:id="@+id/addBloodbankButton"
+                        android:layout_width="500dp"
+                        android:layout_height="500dp"
+                        android:background="@drawable/white_round_button"
+                        android:drawableTop="@drawable/donation_icon"
+                        android:gravity="center"
+                        android:paddingTop="20dp"
+                        android:layout_margin="15dp"
+                        android:paddingBottom="10dp"
+                        android:text="Add Blood Bank"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <Button
+                        android:id="@+id/viewBloodbanksButton"
+                        android:layout_width="500dp"
+                        android:layout_height="500dp"
+                        android:background="@drawable/white_round_button"
+                        android:drawableTop="@drawable/donation_icon"
+                        android:gravity="center"
+                        android:paddingTop="20dp"
+                        android:layout_margin="15dp"
+                        android:paddingBottom="10dp"
+                        android:text="View Blood Banks"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:weightSum="1">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <Button
+                        android:id="@+id/viewDonorsButton"
+                        android:layout_width="500dp"
+                        android:layout_height="500dp"
+                        android:background="@drawable/white_round_button"
+                        android:drawableTop="@drawable/donation_icon"
+                        android:gravity="center"
+                        android:paddingTop="20dp"
+                        android:layout_margin="15dp"
+                        android:paddingBottom="10dp"
+                        android:text="View Donors"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

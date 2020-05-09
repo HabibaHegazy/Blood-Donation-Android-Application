@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Blood_Donation_Project</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_password">Show Password</string>
+    <string name="hide_password">Hide Password</string>
+    <string name="create_an_account_regiester">create an account? Regiester</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="fromSpinner">
+        <item>5am</item>
+        <item>6am</item>
+        <item>7am</item>
+        <item>8am</item>
+        <item>9am</item>
+        <item>10am</item>
+        <item>11am</item>
+        <item>12pm</item>
+        <item>1pm</item>
+        <item>2pm</item>
+        <item>3pm</item>
+        <item>4pm</item>
+        <item>5pm</item>
+        <item>6pm</item>
+        <item>7pm</item>
+        <item>8pm</item>
+        <item>9pm</item>
+        <item>10pm</item>
+        <item>11pm</item>
+        <item>12am</item>
+        <item>1am</item>
+        <item>2am</item>
+        <item>3am</item>
+        <item>4am</item>
+    </string-array>
+
+    <string-array name="toSpinner">
+        <item>5am</item>
+        <item>6am</item>
+        <item>7am</item>
+        <item>8am</item>
+        <item>9am</item>
+        <item>10am</item>
+        <item>11am</item>
+        <item>12pm</item>
+        <item>1pm</item>
+        <item>2pm</item>
+        <item>3pm</item>
+        <item>4pm</item>
+        <item>5pm</item>
+        <item>6pm</item>
+        <item>7pm</item>
+        <item>8pm</item>
+        <item>9pm</item>
+        <item>10pm</item>
+        <item>11pm</item>
+        <item>12am</item>
+        <item>1am</item>
+        <item>2am</item>
+        <item>3am</item>
+        <item>4am</item>
+    </string-array>
+
+    <string-array name="blood_types_array">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="days_of_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string name="bt_prompt">Choose your blood type</string>
+
+    <string name="edit_profile">edit profile</string>
+
+    <string name="save_profile">save profile</string>
+    <string name="blood_type">Blood Type:</string>
+    <string name="birth_date">Birth date:</string>
+    <string name="phone">Phone:</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="first_name">First Name:</string>
+    <string name="choose_your_birthday_date">Choose Your Birthday Date</string>
+    <string name="today_s_date">today\'s date</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+</resources>

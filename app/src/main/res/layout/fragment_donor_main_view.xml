@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragments.Donor_panel.DonorMainViewFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="425dp">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:weightSum="1">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <Button
+                        android:id="@+id/profileBtn"
+                        android:layout_width="500dp"
+                        android:layout_height="500dp"
+                        android:background="@drawable/white_round_button"
+                        android:drawableTop="@drawable/profile_icon"
+                        android:gravity="center"
+                        android:paddingTop="20dp"
+                        android:layout_margin="15dp"
+                        android:paddingBottom="10dp"
+                        android:text="Profile"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <Button
+                        android:id="@+id/donationBtn"
+                        android:layout_width="500dp"
+                        android:layout_height="500dp"
+                        android:background="@drawable/white_round_button"
+                        android:drawableTop="@drawable/donation_icon"
+                        android:gravity="center"
+                        android:paddingTop="20dp"
+                        android:layout_margin="15dp"
+                        android:paddingBottom="10dp"
+                        android:text="Donation"
+                        android:textColor="@color/black" />
+
+
+
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:weightSum="1">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <Button
+                        android:id="@+id/searchMapBtn"
+                        android:layout_width="500dp"
+                        android:layout_height="500dp"
+                        android:background="@drawable/white_round_button"
+                        android:drawableTop="@drawable/search_icon"
+                        android:gravity="center"
+                        android:paddingTop="20dp"
+                        android:layout_margin="15dp"
+                        android:paddingBottom="10dp"
+                        android:text="Search Map"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <Button
+                        android:id="@+id/historyBtn"
+                        android:layout_width="500dp"
+                        android:layout_height="500dp"
+                        android:background="@drawable/white_round_button"
+                        android:drawableTop="@drawable/history_icon"
+                        android:gravity="center"
+                        android:paddingTop="20dp"
+                        android:layout_margin="15dp"
+                        android:paddingBottom="10dp"
+                        android:text="Donation History"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_greyish"
+            android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

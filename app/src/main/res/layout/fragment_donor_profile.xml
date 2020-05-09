@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Fragments.Donor_panel.DonorProfileFragment"
+android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/white_greyish" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_img"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/profile" />
+
+    <Button
+        android:id="@+id/imageEditBtn"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:background="@drawable/red_round_button"
+        android:drawableTop="@drawable/ic_edit_icon"
+        android:layout_gravity="center|top"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="35dp"
+        android:padding="10dp"
+        android:visibility="gone"/>
+
+    <ScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="220dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/first_name"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/bloodRed"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/firstNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/black"
+                android:inputType="textPersonName"
+                android:enabled="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/last_name"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/bloodRed"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/lastNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/black"
+                android:inputType="textPersonName"
+                android:enabled="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gender"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/bloodRed"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"/>
+
+            <RadioGroup
+                android:id="@+id/genderProfileRadioGroup"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <RadioButton
+                    android:id="@+id/radioMaleProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/male"
+                    android:textColor="@color/bloodRed"
+                    android:enabled="false"/>
+
+                <RadioButton
+                    android:id="@+id/radioFemaleProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/female"
+                    android:textColor="@color/bloodRed"
+                    android:enabled="false"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phone"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/bloodRed"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/phoneProfileEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/black"
+                android:inputType="phone"
+                android:enabled="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/birth_date"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/bloodRed"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/birthdateProfileBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white_greyish"
+                android:text="@string/choose_your_birthday_date"
+                android:textColor="@color/bloodRed"
+                android:textSize="14sp"
+                android:enabled="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blood_type"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/bloodRed"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/bloodTypeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:enabled="false"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/profileActionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bloodRed"
+        android:text="@string/edit_profile"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:layout_margin = "20dp"
+        android:textSize="14sp"/>
+
+</FrameLayout>

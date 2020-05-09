@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bloodRed">#C35A48</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="background">#FAFAFA</color>
+    <color name="gray">#ECEFF1</color>
+    <color name="nav_color">#212121</color>
+
+    <color name="white_greyish">#EEEEEE</color>
+
+    <color name="colorBackground">#333C46</color>
+    <color name="colorSplashText">#F0F0F0</color>
+    <color name="colorProgressBar">#FFCE511C</color>
+    <color name="colorTextView">#83898E</color>
+    <color name="hospital_blue">#587cca</color>
+
+</resources>

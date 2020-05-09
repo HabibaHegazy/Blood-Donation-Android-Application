@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/appointments_list_item"
+            android:icon="@drawable/profile_icon"
+            android:title="Today's Appointments" />
+
+        <item
+            android:id="@+id/blood_bank_stock_item"
+            android:icon="@drawable/profile_icon"
+            android:title="Blood Bank Stock" />
+
+        <item
+            android:id="@+id/bb_timing_slots_item"
+            android:icon="@drawable/profile_icon"
+            android:title="Timing Slots Control" />
+
+        <item
+            android:id="@+id/emergency_request_item"
+            android:icon="@drawable/profile_icon"
+            android:title="Emergency Request" />
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/change_email_item"
+                android:icon="@drawable/profile_icon"
+                android:title="Email Settings" />
+
+            <item
+                android:id="@+id/change_password_item"
+                android:icon="@drawable/profile_icon"
+                android:title="Password Settings" />
+
+            <item
+                android:id="@+id/signout_item"
+                android:icon="@drawable/profile_icon"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

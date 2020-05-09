@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Donor_panel.DonationHistoryFragment">
+
+    <!--<EditText
+        android:id="@+id/searchDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_border_edittext"
+        android:drawableStart="@drawable/calendar_icon"
+        android:gravity="center"
+        android:hint="@string/today_s_date"
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        android:enabled="false">
+        <requestFocus />
+    </EditText>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>
